@@ -21,7 +21,7 @@ const Home = () => {
         <div className="md:w-1/4 order-1 md:order-2">
           <img
             className="rounded-full w-full"
-            src="/Jannat-WithoutBg.png"
+            src="./Jannat-WithoutBg.png"
             alt=""
           />
         </div>
