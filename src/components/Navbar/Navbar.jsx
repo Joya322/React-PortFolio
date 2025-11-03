@@ -35,7 +35,7 @@ const NavBar = () => {
           </ul>
 
           {/* menu icon */}
-          <div className="dropdown  lg:hidden">
+          <div className="dropdown  lg:hidden flex justify-end">
             <div tabIndex={0} role="button" className="btn btn-ghost">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-12 w-52 p-2 shadow text-lg"
             >
               {links}
             </ul>
